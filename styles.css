@@ -26,6 +26,18 @@ body {
   text-align: left;
 }
 
+#wrapper {
+  display: flex;
+}
+
+#left {
+  flex: 0 0 35%;
+}
+
+#right {
+  flex: 1;
+}
+
 .accordion-header {
   background-color: #FFC0CB;
   border: 1px solid black;
