@@ -28,10 +28,11 @@ body {
 
 #wrapper {
   display: flex;
+  justify-content: space-between;
 }
 
 #left {
-  flex: 0 0 30%;
+  flex: 0 0 35%;
 }
 
 #right {
